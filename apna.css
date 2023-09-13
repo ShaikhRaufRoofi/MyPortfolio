@@ -1,0 +1,204 @@
+body{
+    background-color: rgba(25, 79, 181, 0.811);
+    width: 720px;
+    height: 1280px;
+}
+#Status{
+    color: aliceblue;
+    background-color:black;
+    text-align: center;
+    border: 2px solid aliceblue;
+    padding: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px black;
+}
+.Status-Sec2{
+    word-spacing: 40px;
+}
+.About-Sec2{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: end;
+}
+#Profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.Profile-Sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 0px black;
+}
+
+.Profile-Sec2{
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: rgb(82, 192, 115);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    height: 250px;
+    box-shadow: 5px 5px 5px 0px black;
+}
+    
+.Profile-Pic{
+    width: 300px;
+    Height: 300px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.Linkedin{
+    width: 30px; 
+    height: 30px;
+    padding: 10px;
+}
+.Facebook{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+
+}
+
+/* About */
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+#About{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.About-Sec1{
+    background-color: rgb(82, 192, 115);
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px 0px black;
+}
+.About-Sec2{
+    background-color:rgb(82, 192, 115);
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px 0px black;
+}
+
+/* Skills */
+#Skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Skills-Sec1{
+    background-color: rgb(82, 192, 115);
+    border: 2px solid black;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    text-align: left;
+    padding: 30px;
+    margin: 20px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px 0px black;
+}
+.Skills-Sec2{
+    text-align: center;
+}
+.Experience-icon{
+width: 20px;
+height: 20px;
+margin-right: 2px;
+}
+
+/* Projects */
+
+#Projects{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.Projects-Sec1{
+    text-align: center;
+    background-color: rgb(82, 192, 115);
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 0px;
+    padding: 10px;
+    width: 500px;
+    height: 350px;
+}
+.Solar{
+    width: 200x;
+    height: 200px;
+}
+/* Contact */
+#Contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Contact-Sec1{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   border: 2px solid black;
+   padding: 5px;
+   background-color:rgb(82, 192, 115) ;
+   border-radius: 20px;
+   width: 400px;
+   height: 80px;
+   box-shadow: 5px 5px 5px 0px black;
+}
+.Linkedin-2{
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+}
+
+.Copyrights{
+    text-align: center;
+    color: rgb(53, 52, 52);
+}
+.Contact-Sec1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+  }
+  .email-icon{
+    width: 30px;
+    height: 30px;
+    font-size: 40px ;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+    
+  }
+  
+  a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+  }
